@@ -1,4 +1,4 @@
-I made the diagram using websequencediagrams service as follows:
+I made the diagram using websequencediagrams service as follows(note: the png of the diagram can be seen in the comments of this file):
 
 browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
 server-->browser: URL redirect
