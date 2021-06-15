@@ -1,5 +1,5 @@
 I made the diagram using websequencediagrams service as follows:
-(note: the png of the diagram can be seen here (https://user-images.githubusercontent.com/83866202/122041844-12fff780-cde2-11eb-9487-b545e67c9e62.png)
+(note: the png of the diagram can be seen here [diagram](https://user-images.githubusercontent.com/83866202/122041844-12fff780-cde2-11eb-9487-b545e67c9e62.png) )
 
 browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
 server-->browser: URL redirect
