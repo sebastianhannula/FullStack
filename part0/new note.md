@@ -1,26 +1,3 @@
-I made the diagram using websequencediagrams service as follows:
-note: the png of the diagram can be seen ![here](https://user-images.githubusercontent.com/83866202/122041844-12fff780-cde2-11eb-9487-b545e67c9e62.png) 
+I made the diagram using websequencediagrams service and used the given example diagram as a template
 
-browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
-server-->browser: URL redirect
-browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/notes
-server-->browser: HTML-code
-browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
-server-->browser: main.css
-browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.js
-server-->browser: main.js
-
-
-note over browser:
-browser starts executing js-code
-that requests JSON data from server 
-end note
-
-browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
-server-->browser: [{...}, ..., {"content":"the new note","date":"2021-06-15"}]
-
-note over browser:
-browser executes the event handler
-that renders notes to display 
-includeing the new note
-end note
+![here](https://user-images.githubusercontent.com/83866202/122041844-12fff780-cde2-11eb-9487-b545e67c9e62.png)
